@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="headerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="headerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 28.2pt</value>
+  </data>
+  <data name="headerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 26</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="headerLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="headerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 65</value>
+  </data>
+  <data name="headerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="headerLabel.Text" xml:space="preserve">
+    <value>Tournament</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.Name" xml:space="preserve">
+    <value>headerLabel</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tournamentName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tournamentName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 28.2pt</value>
+  </data>
+  <data name="tournamentName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tournamentName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 26</value>
+  </data>
+  <data name="tournamentName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="tournamentName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 65</value>
+  </data>
+  <data name="tournamentName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tournamentName.Text" xml:space="preserve">
+    <value>&lt;none&gt;</value>
+  </data>
+  <data name="&gt;&gt;tournamentName.Name" xml:space="preserve">
+    <value>tournamentName</value>
+  </data>
+  <data name="&gt;&gt;tournamentName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tournamentName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tournamentName.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="roundLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="roundLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="roundLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 120</value>
+  </data>
+  <data name="roundLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 46</value>
+  </data>
+  <data name="roundLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="roundLabel.Text" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="&gt;&gt;roundLabel.Name" xml:space="preserve">
+    <value>roundLabel</value>
+  </data>
+  <data name="&gt;&gt;roundLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roundLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;roundLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="roundDropBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 123</value>
+  </data>
+  <data name="roundDropBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 45</value>
+  </data>
+  <data name="roundDropBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;roundDropBox.Name" xml:space="preserve">
+    <value>roundDropBox</value>
+  </data>
+  <data name="&gt;&gt;roundDropBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roundDropBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;roundDropBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 171</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 50</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.Text" xml:space="preserve">
+    <value>Unplayed Only</value>
+  </data>
+  <data name="unplayedOnlyCheckedBox.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;unplayedOnlyCheckedBox.Name" xml:space="preserve">
+    <value>unplayedOnlyCheckedBox</value>
+  </data>
+  <data name="&gt;&gt;unplayedOnlyCheckedBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;unplayedOnlyCheckedBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;unplayedOnlyCheckedBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="matchupListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="matchupListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 251</value>
+  </data>
+  <data name="matchupListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 298</value>
+  </data>
+  <data name="matchupListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;matchupListBox.Name" xml:space="preserve">
+    <value>matchupListBox</value>
+  </data>
+  <data name="&gt;&gt;matchupListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;matchupListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;matchupListBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="teamOneName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teamOneName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="teamOneName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="teamOneName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 257</value>
+  </data>
+  <data name="teamOneName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 46</value>
+  </data>
+  <data name="teamOneName.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="teamOneName.Text" xml:space="preserve">
+    <value>&lt;TeamOne&gt;</value>
+  </data>
+  <data name="&gt;&gt;teamOneName.Name" xml:space="preserve">
+    <value>teamOneName</value>
+  </data>
+  <data name="&gt;&gt;teamOneName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teamOneName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teamOneName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="scoreTeamOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="scoreTeamOne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="scoreTeamOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="scoreTeamOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 320</value>
+  </data>
+  <data name="scoreTeamOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="scoreTeamOne.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="scoreTeamOne.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamOne.Name" xml:space="preserve">
+    <value>scoreTeamOne</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamOne.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamOne.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="teamOneScoreValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 323</value>
+  </data>
+  <data name="teamOneScoreValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 43</value>
+  </data>
+  <data name="teamOneScoreValue.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;teamOneScoreValue.Name" xml:space="preserve">
+    <value>teamOneScoreValue</value>
+  </data>
+  <data name="&gt;&gt;teamOneScoreValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teamOneScoreValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teamOneScoreValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="teamTwoScoreValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 506</value>
+  </data>
+  <data name="teamTwoScoreValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 43</value>
+  </data>
+  <data name="teamTwoScoreValue.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teamTwoScoreValue.Name" xml:space="preserve">
+    <value>teamTwoScoreValue</value>
+  </data>
+  <data name="&gt;&gt;teamTwoScoreValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teamTwoScoreValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teamTwoScoreValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="scoreTeamTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="scoreTeamTwo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="scoreTeamTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="scoreTeamTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 503</value>
+  </data>
+  <data name="scoreTeamTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="scoreTeamTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="scoreTeamTwo.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamTwo.Name" xml:space="preserve">
+    <value>scoreTeamTwo</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamTwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;scoreTeamTwo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="teamTwoName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teamTwoName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="teamTwoName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="teamTwoName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 440</value>
+  </data>
+  <data name="teamTwoName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 46</value>
+  </data>
+  <data name="teamTwoName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="teamTwoName.Text" xml:space="preserve">
+    <value>&lt;TeamTwo&gt;</value>
+  </data>
+  <data name="&gt;&gt;teamTwoName.Name" xml:space="preserve">
+    <value>teamTwoName</value>
+  </data>
+  <data name="&gt;&gt;teamTwoName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;teamTwoName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teamTwoName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="scoreButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="scoreButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 16.2pt, style=Bold</value>
+  </data>
+  <data name="scoreButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 383</value>
+  </data>
+  <data name="scoreButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 52</value>
+  </data>
+  <data name="scoreButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="scoreButton.Text" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="&gt;&gt;scoreButton.Name" xml:space="preserve">
+    <value>scoreButton</value>
+  </data>
+  <data name="&gt;&gt;scoreButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scoreButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;scoreButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="versusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="versusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="versusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="versusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 385</value>
+  </data>
+  <data name="versusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 46</value>
+  </data>
+  <data name="versusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="versusLabel.Text" xml:space="preserve">
+    <value>-VS-</value>
+  </data>
+  <data name="&gt;&gt;versusLabel.Name" xml:space="preserve">
+    <value>versusLabel</value>
+  </data>
+  <data name="&gt;&gt;versusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;versusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;versusLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 37</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1007, 586</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16.2pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAhef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8AAAAAAAAAAAAAAAAAAAAAAAAhef+E
+        tv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+E
+        tv+Etv+Etv+Etv8hef8AAAAAAAAAAAAAAAAAAAAhef+Etv8hef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef+Etv+Etv8hef8AAAAAAAAAAAAA
+        AAAAAAAhef+Etv8hef+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+E
+        tv+Etv+Etv+Etv8hef8hef8hef8hef8hef8AAAAAAAAAAAAAAAAhef+Etv8hef+Etv8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef+Etv8hef+Etv8hef+Etv8h
+        ef8AAAAAAAAAAAAAAAAhef+Etv8hef+Etv8hef+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+E
+        tv+Etv+Etv+Etv+Etv+Etv8hef+Etv8hef+Etv8hef+Etv8hef8AAAAAAAAAAAAAAAAhef+Etv8hef+E
+        tv8hef+Etv8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef+Etv8hef8hef8h
+        ef+Etv8hef+Etv8hef8AAAAAAAAAAAAhef+Etv8hef+Etv8hef+Etv+Etv8hef+Etv+Etv+Etv+Etv+E
+        tv+Etv+Etv+Etv+Etv+Etv+Etv8hef+Etv8hef+Etv8hef+Etv8hef+Etv+Etv8hef8AAAAAAAAAAAAh
+        ef+Etv8hef+Etv8hef+Etv8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef+Etv8hef+E
+        tv8hef+Etv8hef+Etv8hef+Etv+Etv8hef8AAAAAAAAAAAAhef+Etv8hef+Etv8hef+Etv8hef+Etv+E
+        tv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv8hef+Etv8hef+Etv8hef+Etv8hef+Etv+Etv8h
+        ef8AAAAAAAAhef+Etv8hef+Etv8hef+Etv+Etv8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef+Etv8hef+Etv8hef+Etv8hef+Etv+Etv8AAAAhef8AAAAAAAAhef+Etv8hef+Etv8hef+E
+        tv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv8hef+Etv8hef+Etv8h
+        ef+Etv8AAAAAAAAhef8AAAAhef+Etv8hef+Etv8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef+Etv8hef+Etv8hef+Etv+Etv8AAAAAAAAhef8AAAAhef+Etv8h
+        ef+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+E
+        tv8hef+Etv8hef+Etv+Etv8AAAAAAAAhef8AAAAhef8hef8hef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef+Etv8hef+Etv8AAAAAAAAAAAAh
+        ef8hef+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+E
+        tv+Etv+Etv+Etv+Etv+Etv8hef+Etv+Etv8AAAAAAAAAAAAhef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef+Etv8A
+        AAAAAAAAAAAAAAAhef8AAAAAAAAAAAAAAAAAAAAAAAAhef8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhef8AAAAAAAAAAAAA
+        AAAAAAAAAAAhef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8hef8h
+        ef8hef8hef8hef8hef8hef8hef8hef8hef8AAAAAAAAAAAAAAAAAAAAAAAAhef+Etv+Etv+Etv+Etv+E
+        tv+Etv+Etv+Etv+Etv+Etv+Etv8hef8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhef+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv+Etv8hef8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAhef+Etv+Etv+Etv+Etv+Etv+Etv+Etv8hef8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhef8hef8hef8hef8hef8hef8h
+        ef8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD8AAAA/AAAAPgAAAD4AAAA8AAAAPAAAADwAAAA4AAAAOAAAADgAAAAwAAAAsAA
+        AAaAAAAGgAAABoAAAA4AAAAOAAAAHv3///78AAAA/AAf//4AP///AH///4D/////////////////////
+        /////////////////////////////w==
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>11, 16, 11, 16</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tournament Viewer</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TournamentViewerForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
